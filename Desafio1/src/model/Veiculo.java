@@ -100,7 +100,11 @@ public class Veiculo {
 				Velocidade = getVelocidade() - 10;
 				setVelocidade(Velocidade);
 				System.out.println("Freando... "+ getVelocidade() + " km/h");
+			} else {
+				System.out.println("Veículo já está parado");
 			}
+		} else {
+			System.out.println("Veículo está desligado.");
 		}
 	}
 	

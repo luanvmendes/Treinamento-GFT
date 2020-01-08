@@ -11,65 +11,82 @@ public class Veiculo {
 	private int litrosCombustivel;
 	private int Velocidade;
 	private double Preco;
-	
+			
 	public String getMarca() {
 		return Marca;
 	}
+
 	public void setMarca(String marca) {
 		Marca = marca;
 	}
+
 	public String getModelo() {
 		return Modelo;
 	}
+
 	public void setModelo(String modelo) {
 		Modelo = modelo;
 	}
+
 	public String getPlaca() {
 		return Placa;
 	}
+
 	public void setPlaca(String placa) {
 		Placa = placa;
 	}
+
 	public String getCor() {
 		return Cor;
 	}
+
 	public void setCor(String cor) {
 		Cor = cor;
 	}
+
 	public float getKm() {
 		return Km;
 	}
+
 	public void setKm(float km) {
 		Km = km;
 	}
-	public boolean isLigado() {
+
+	public boolean getLigado() {
 		return isLigado;
 	}
+
 	public void setLigado(boolean isLigado) {
 		this.isLigado = isLigado;
 	}
+
 	public int getLitrosCombustivel() {
 		return litrosCombustivel;
 	}
+
 	public void setLitrosCombustivel(int litrosCombustivel) {
 		this.litrosCombustivel = litrosCombustivel;
 	}
+
 	public int getVelocidade() {
 		return Velocidade;
 	}
+
 	public void setVelocidade(int velocidade) {
 		Velocidade = velocidade;
 	}
+
 	public double getPreco() {
 		return Preco;
 	}
+
 	public void setPreco(double preco) {
 		Preco = preco;
 	}
-	
+
 	public void acelerar() {
 		//verificar se está ligado
-		if (isLigado == true) {
+		if (getLigado() == true) {
 			setVelocidade(getVelocidade()+20);
 			litrosCombustivel = getLitrosCombustivel() - 1;
 			setLitrosCombustivel(litrosCombustivel);
@@ -94,7 +111,7 @@ public class Veiculo {
 	}
 	
 	public void frear() {
-		if (isLigado == true) {
+		if (getLigado() == true) {
 			if (getVelocidade() > 0 ) {
 				System.out.println("Velocidade atual: "+ getVelocidade() + " km/h");
 				Velocidade = getVelocidade() - 10;
@@ -114,8 +131,8 @@ public class Veiculo {
 	}
 	
 	public void ligar() {
-		if (isLigado != true) {
-			isLigado = true;
+		if (getLigado() != true) {
+			setLigado(true);
 			System.out.println("Carro ligado");
 		}else {
 			System.out.println("Carro já está ligado!");
@@ -123,8 +140,8 @@ public class Veiculo {
 	}
 	
 	public void desligar() {
-		if (isLigado == true) {
-			isLigado = false;
+		if (getLigado() == true) {
+			setLigado(false);
 			System.out.println("Carro desligado");
 		} else {
 			System.out.println("Veículo já se encontra desligado");

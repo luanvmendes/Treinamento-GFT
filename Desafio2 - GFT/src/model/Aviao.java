@@ -19,7 +19,10 @@ public class Aviao extends Veiculo {
 		this.uso = uso;
 	}
 	
-	
-	
-	
+	public Aviao(String modelo, int velocidade, int passageiros, int combustivel, String tipo, String uso) {
+		super(modelo, velocidade, passageiros, combustivel);
+		setTipo(tipo);
+		setUso(uso);
+	}
+
 }

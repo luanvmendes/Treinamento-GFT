@@ -25,6 +25,12 @@ public class Carro extends Veiculo {
 	public void setAno(int ano) {
 		this.ano = ano;
 	}
-		
+	
+	public Carro(String modelo, int velocidade, int passageiros, int combustivel, String marca, int portas, int ano) {
+		super(modelo, velocidade, passageiros, combustivel);
+		setMarca(marca);
+		setPortas(portas);
+		setAno(ano);
+	}
 	
 }

@@ -10,48 +10,51 @@ public class Main {
 	public static void main(String[] args) {
 
 		Scanner entrada = new Scanner(System.in);
-		int opcao;
+		String marca, modelo, tipo, uso;
+		int opcao, vel, passageiros, portas, ano, litros;
 		
 		System.out.println("Qual tipo de veículo você utiliza? \n1 - Carro \n2 - Avião");
 		opcao = entrada.nextInt();
 		switch (opcao) {
 		
 		case 1:
-			Carro car = new Carro();
 			System.out.println("Qual a marca do carro?");
-			car.setMarca(entrada.next());
+			marca = entrada.next();
 			System.out.println("Qual o modelo do carro?");
-			car.setModelo(entrada.next());
+			modelo = entrada.next();
 			System.out.println("Qual a velocidade que está se locomovendo?");
-			car.setVelocidade(entrada.nextInt());
+			vel = entrada.nextInt();
 			System.out.println("Quantos passageiros?");
-			car.setPassageiros(entrada.nextInt());
+			passageiros = entrada.nextInt();
 			System.out.println("Quantas portas possui o carro?");
-			car.setPortas(entrada.nextInt());
+			portas = entrada.nextInt();
 			System.out.println("Qual o ano do carro?");
-			car.setAno(entrada.nextInt());
+			ano = entrada.nextInt();
 			System.out.println("Quantos litros de combustível possui no tanque?");
-			car.setCombustivel(entrada.nextInt());
+			litros = entrada.nextInt();
+			
+			Carro car = new Carro(modelo, vel, passageiros, litros, marca, portas, ano);
 			
 			System.out.println("Modelo: " + car.getModelo() + " Marca: " + car.getMarca());
 			System.out.println("Velocidade: " + car.getVelocidade() + " km/h" + " Passageiros: " + car.getPassageiros() + 
 					"\nCombustível: " + car.getCombustivel() + " litros" + " Portas: " +car.getPortas() + "\nAno: " + car.getAno());
 			break;
 			
-		case 2:
-			Aviao av = new Aviao();
+		case 2:			
 			System.out.println("Qual o modelo do avião?");
-			av.setModelo(entrada.next());
+			modelo = entrada.next();
 			System.out.println("Qual a velocidade que está se locomovendo?");
-			av.setVelocidade(entrada.nextInt());
+			vel = entrada.nextInt();
 			System.out.println("Quantos passageiros?");
-			av.setPassageiros(entrada.nextInt());
+			passageiros = entrada.nextInt();
 			System.out.println("Qual tipo do avião?");
-			av.setTipo(entrada.next());
+			tipo = entrada.next();
 			System.out.println("Qual a finalidade de uso?");
-			av.setUso(entrada.next());
+			uso = entrada.next();
 			System.out.println("Quantos litros de combustível possui no tanque?");
-			av.setCombustivel(entrada.nextInt());
+			litros = entrada.nextInt();
+			
+			Aviao av = new Aviao(modelo, vel, passageiros, litros, tipo, uso);
 			
 			System.out.println("Modelo: " + av.getModelo() + " Velocidade: " + av.getVelocidade() + " km/h" +
 					"\nPassageiros: " + av.getPassageiros() + " Tipo do avião: " + av.getTipo() +
@@ -59,8 +62,6 @@ public class Main {
 			break;			
 		}
 		
-		
-
 	}
 
 }

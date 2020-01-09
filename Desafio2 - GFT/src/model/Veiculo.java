@@ -32,7 +32,16 @@ public class Veiculo {
 		this.combustivel = combustivel;
 	}
 	
+	public Veiculo(String modelo, int velocidade, int passageiros, int combustivel) {
+		super();
+		this.modelo = modelo;
+		this.velocidade = velocidade;
+		this.passageiros = passageiros;
+		this.combustivel = combustivel;
+	}
 	
-	
-	
+	public Veiculo() {
+
+	}
+		
 }

@@ -20,11 +20,12 @@ public class Main {
 		
 		case 1:			
 			Carro car = new Carro();
+			entrada.nextLine();	 //esvaziar Buffer do teclado
 			System.out.println("Qual a marca do carro?");
-			marca = entrada.next();
+			marca = entrada.nextLine();
 			car.setMarca(marca);
 			System.out.println("Qual o modelo do carro?");
-			modelo = entrada.next();
+			modelo = entrada.nextLine();
 			car.setModelo(modelo);
 			System.out.println("Qual a velocidade que está se locomovendo?");
 			vel = entrada.nextInt();
@@ -72,21 +73,23 @@ public class Main {
 			break;
 			
 		case 2:				
-			Aviao av = new Aviao();		
+			Aviao av = new Aviao();
+			entrada.nextLine();	 //esvaziar Buffer do teclado		
 			System.out.println("Qual o modelo do avião?");
-			modelo = entrada.next();
+			modelo = entrada.nextLine();
 			av.setModelo(modelo);
 			System.out.println("Qual a velocidade que está se locomovendo?");
 			vel = entrada.nextInt();
-			av.setVelocidade(vel);
+			av.setVelocidade(vel);		
 			System.out.println("Quantos passageiros?");
 			passageiros = entrada.nextInt();
 			av.setPassageiros(passageiros);
+			entrada.nextLine();	 //esvaziar Buffer do teclado
 			System.out.println("Qual tipo do avião?");
-			tipo = entrada.next();
+			tipo = entrada.nextLine();
 			av.setTipo(tipo);
 			System.out.println("Qual a finalidade de uso?");
-			uso = entrada.next();
+			uso = entrada.nextLine();
 			av.setUso(uso);
 			System.out.println("Quantos litros de combustível possui no tanque?");
 			litros = entrada.nextInt();
@@ -121,9 +124,10 @@ public class Main {
 			break;
 			
 		case 3:			
-			Caminhao c = new Caminhao();			
+			Caminhao c = new Caminhao();
+			entrada.nextLine();	 //esvaziar Buffer do teclado			
 			System.out.println("Qual o modelo do caminhão?");
-			modelo = entrada.next();
+			modelo = entrada.nextLine();
 			c.setModelo(modelo);
 			System.out.println("Qual a velocidade que está se locomovendo?");
 			vel = entrada.nextInt();
@@ -131,11 +135,13 @@ public class Main {
 			System.out.println("Quantos passageiros?");
 			passageiros = entrada.nextInt();
 			c.setPassageiros(passageiros);
+			entrada.nextLine();	 //esvaziar Buffer do teclado
 			System.out.println("Qual a altura do caminhão?");
 			altura = entrada.nextInt();
 			c.setAltura(altura);
+			entrada.nextLine();	 //esvaziar Buffer do teclado
 			System.out.println("Qual a finalidade de uso?");
-			uso = entrada.next();
+			uso = entrada.nextLine();
 			c.setUso(uso);
 			System.out.println("Quantos litros de combustível possui no tanque?");
 			litros = entrada.nextInt();
@@ -170,6 +176,9 @@ public class Main {
 			break;	
 			
 		}
+		
+		entrada.close();
+		
 	}
 
 }

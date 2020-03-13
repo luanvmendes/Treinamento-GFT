@@ -1,0 +1,11 @@
+C:\Users\LUMN\source\repos\DesafioTestePOO-C-Sharp\Teste02\Teste02\bin\Debug\netcoreapp3.1\Teste02.exe
+C:\Users\LUMN\source\repos\DesafioTestePOO-C-Sharp\Teste02\Teste02\bin\Debug\netcoreapp3.1\Teste02.deps.json
+C:\Users\LUMN\source\repos\DesafioTestePOO-C-Sharp\Teste02\Teste02\bin\Debug\netcoreapp3.1\Teste02.runtimeconfig.json
+C:\Users\LUMN\source\repos\DesafioTestePOO-C-Sharp\Teste02\Teste02\bin\Debug\netcoreapp3.1\Teste02.runtimeconfig.dev.json
+C:\Users\LUMN\source\repos\DesafioTestePOO-C-Sharp\Teste02\Teste02\bin\Debug\netcoreapp3.1\Teste02.dll
+C:\Users\LUMN\source\repos\DesafioTestePOO-C-Sharp\Teste02\Teste02\bin\Debug\netcoreapp3.1\Teste02.pdb
+C:\Users\LUMN\source\repos\DesafioTestePOO-C-Sharp\Teste02\Teste02\obj\Debug\netcoreapp3.1\Teste02.csprojAssemblyReference.cache
+C:\Users\LUMN\source\repos\DesafioTestePOO-C-Sharp\Teste02\Teste02\obj\Debug\netcoreapp3.1\Teste02.AssemblyInfoInputs.cache
+C:\Users\LUMN\source\repos\DesafioTestePOO-C-Sharp\Teste02\Teste02\obj\Debug\netcoreapp3.1\Teste02.AssemblyInfo.cs
+C:\Users\LUMN\source\repos\DesafioTestePOO-C-Sharp\Teste02\Teste02\obj\Debug\netcoreapp3.1\Teste02.dll
+C:\Users\LUMN\source\repos\DesafioTestePOO-C-Sharp\Teste02\Teste02\obj\Debug\netcoreapp3.1\Teste02.pdb

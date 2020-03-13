@@ -1,0 +1,11 @@
+C:\Users\LUMN\source\repos\Desafio04-C-Sharp\Desafio04-C-Sharp\bin\Debug\netcoreapp3.1\Desafio04-C-Sharp.exe
+C:\Users\LUMN\source\repos\Desafio04-C-Sharp\Desafio04-C-Sharp\bin\Debug\netcoreapp3.1\Desafio04-C-Sharp.deps.json
+C:\Users\LUMN\source\repos\Desafio04-C-Sharp\Desafio04-C-Sharp\bin\Debug\netcoreapp3.1\Desafio04-C-Sharp.runtimeconfig.json
+C:\Users\LUMN\source\repos\Desafio04-C-Sharp\Desafio04-C-Sharp\bin\Debug\netcoreapp3.1\Desafio04-C-Sharp.runtimeconfig.dev.json
+C:\Users\LUMN\source\repos\Desafio04-C-Sharp\Desafio04-C-Sharp\bin\Debug\netcoreapp3.1\Desafio04-C-Sharp.dll
+C:\Users\LUMN\source\repos\Desafio04-C-Sharp\Desafio04-C-Sharp\bin\Debug\netcoreapp3.1\Desafio04-C-Sharp.pdb
+C:\Users\LUMN\source\repos\Desafio04-C-Sharp\Desafio04-C-Sharp\obj\Debug\netcoreapp3.1\Desafio04-C-Sharp.csprojAssemblyReference.cache
+C:\Users\LUMN\source\repos\Desafio04-C-Sharp\Desafio04-C-Sharp\obj\Debug\netcoreapp3.1\Desafio04-C-Sharp.AssemblyInfoInputs.cache
+C:\Users\LUMN\source\repos\Desafio04-C-Sharp\Desafio04-C-Sharp\obj\Debug\netcoreapp3.1\Desafio04-C-Sharp.AssemblyInfo.cs
+C:\Users\LUMN\source\repos\Desafio04-C-Sharp\Desafio04-C-Sharp\obj\Debug\netcoreapp3.1\Desafio04-C-Sharp.dll
+C:\Users\LUMN\source\repos\Desafio04-C-Sharp\Desafio04-C-Sharp\obj\Debug\netcoreapp3.1\Desafio04-C-Sharp.pdb
